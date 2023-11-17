@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.mrone.mapper.AdminMapper">
+
+    <resultMap id="BaseResultMap" type="com.mrone.entity.Admin">
+            <id property="phone" column="phone" jdbcType="VARCHAR"/>
+            <result property="name" column="name" jdbcType="VARCHAR"/>
+            <result property="password" column="password" jdbcType="VARCHAR"/>
+            <result property="role" column="role" jdbcType="VARCHAR"/>
+            <result property="permission" column="permission" jdbcType="VARCHAR"/>
+            <result property="avatar" column="avatar" jdbcType="VARCHAR"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        phone,name,password,
+        role,permission,avatar
+    </sql>
+
+    <select id="findByPhone" resultType="com.mrone.dto.AdminDto">
+        select * from admin where phone=#{phone}
+    </select>
+</mapper>

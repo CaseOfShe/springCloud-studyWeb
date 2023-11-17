@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.mrone.mapper.ChooseanswerMapper">
+
+    <resultMap id="BaseResultMap" type="com.mrone.entity.Chooseanswer">
+            <id property="sid" column="sid" jdbcType="INTEGER"/>
+            <result property="choosename" column="choosename" jdbcType="VARCHAR"/>
+            <result property="anwsera" column="anwsera" jdbcType="VARCHAR"/>
+            <result property="anwserb" column="anwserb" jdbcType="VARCHAR"/>
+            <result property="anwserc" column="anwserc" jdbcType="VARCHAR"/>
+            <result property="anwserd" column="anwserd" jdbcType="VARCHAR"/>
+            <result property="answer" column="answer" jdbcType="VARCHAR"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        sid,choosename,anwsera,
+        anwserb,anwserc,anwserd,
+        answer
+    </sql>
+    <select id="findChooseBySid" resultType="com.mrone.dto.ChooseDto">
+        select a.*,b.*,d.username,d.role,d.avatar
+        from subject a
+        join chooseanswer b on a.id=b.sid
+        join usernum c on a.uid=c.id
+        join user d on c.openid = d.openid
+        where a.id=#{sid}
+    </select>
+</mapper>

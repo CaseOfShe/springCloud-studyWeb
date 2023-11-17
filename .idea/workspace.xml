@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4c993631-f908-4252-84be-33ed71682c33" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="2ERFBgDPVGZRBsbgCPNWjJ8E0mh" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "F:/com.study/studyweb",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "File.Encoding",
+    "spring.configuration.checksum": "0852aa83babf627d998f01ff4f115c58",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.mrone.com.mrone.service.serviceimpl" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\com.study\studyweb" />
+      <recent name="F:\com.study\studyweb\models\src\main\java\com\mrone" />
+      <recent name="F:\com.study\studyweb\models\src\main\resources\mapper" />
+      <recent name="F:\com.study\studyweb\models\src\main\java\com\mrone\mapper" />
+      <recent name="F:\com.study\studyweb\SpringCloud_alibaba_admin\src\main\resources\mapper" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\com.study\studyweb" />
+      <recent name="F:\com.study\studyweb\SpringCloud_alibaba_article\src\main\resources\mapper" />
+      <recent name="F:\com.study\studyweb\SpringCloud_alibaba_configclient\src\main\resources" />
+      <recent name="F:\com.study\studyweb\SpringCloud_alibaba_configclient\src\test" />
+      <recent name="F:\com.study\studyweb\SpringCloud_alibaba_gateway\src\test" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.mrone.service" />
+      <recent name="com.mrone.mapper" />
+      <recent name="com.mrone.entity" />
+      <recent name="com.mrone.config" />
+      <recent name="com.mrone.controller" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ArticleApplication">
+    <configuration name="AdminApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="SpringCloud_alibaba_admin" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mrone.AdminApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mrone.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArticleApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <module name="Article" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mrone.ArticleApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mrone.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <module name="SpringCloud_alibaba_gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mrone.GatewayApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mrone.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RabbitApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <module name="rabbitmq" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mrone.RabbitApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mrone.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UsersApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <module name="SpringCloud_alibaba_users" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mrone.UsersApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mrone.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.AdminApplication" />
+      <item itemvalue="Spring Boot.ArticleApplication" />
+      <item itemvalue="Spring Boot.RabbitApplication" />
+      <item itemvalue="Spring Boot.GatewayApplication" />
+      <item itemvalue="Spring Boot.UsersApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.ArticleApplication" />
+        <item itemvalue="Spring Boot.AdminApplication" />
+        <item itemvalue="Spring Boot.GatewayApplication" />
+        <item itemvalue="Spring Boot.UsersApplication" />
+        <item itemvalue="Spring Boot.RabbitApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4c993631-f908-4252-84be-33ed71682c33" name="Default Changelist" comment="" />
+      <created>1662550355802</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1662550355802</updated>
+      <workItem from="1662550358480" duration="2326000" />
+      <workItem from="1662604581671" duration="28644000" />
+      <workItem from="1662682057683" duration="11901000" />
+      <workItem from="1662707088579" duration="292000" />
+      <workItem from="1662729012384" duration="1761000" />
+      <workItem from="1662789188923" duration="12527000" />
+      <workItem from="1662887482440" duration="2410000" />
+      <workItem from="1662987882775" duration="1017000" />
+      <workItem from="1663120807472" duration="91000" />
+      <workItem from="1663120912530" duration="70000" />
+      <workItem from="1663137795179" duration="1442000" />
+      <workItem from="1663144371555" duration="3536000" />
+      <workItem from="1663210963894" duration="765000" />
+      <workItem from="1663212662116" duration="10000" />
+      <workItem from="1663313328235" duration="3499000" />
+      <workItem from="1663588296065" duration="17000" />
+      <workItem from="1663588319987" duration="2480000" />
+      <workItem from="1663740774130" duration="3573000" />
+      <workItem from="1663826705036" duration="97000" />
+      <workItem from="1663830745932" duration="4811000" />
+      <workItem from="1664963132151" duration="2070000" />
+      <workItem from="1664977851150" duration="654000" />
+      <workItem from="1665045730916" duration="2880000" />
+      <workItem from="1665132473832" duration="727000" />
+      <workItem from="1665136884209" duration="269000" />
+      <workItem from="1665196403645" duration="444000" />
+      <workItem from="1665227718096" duration="10000" />
+      <workItem from="1666707881702" duration="717000" />
+      <workItem from="1666794452921" duration="1504000" />
+      <workItem from="1667023934816" duration="32000" />
+      <workItem from="1667664164595" duration="39000" />
+      <workItem from="1668945861031" duration="1045000" />
+      <workItem from="1669285268306" duration="17000" />
+      <workItem from="1669541651366" duration="143000" />
+      <workItem from="1677495634813" duration="2523000" />
+      <workItem from="1677674702296" duration="795000" />
+      <workItem from="1677677736916" duration="53000" />
+      <workItem from="1677677808377" duration="1480000" />
+      <workItem from="1677753327732" duration="1070000" />
+      <workItem from="1677754488676" duration="5747000" />
+      <workItem from="1677909663417" duration="22954000" />
+      <workItem from="1678793921463" duration="683000" />
+      <workItem from="1679053742181" duration="622000" />
+      <workItem from="1679809023146" duration="898000" />
+      <workItem from="1680518329059" duration="543000" />
+      <workItem from="1680519125383" duration="477000" />
+      <workItem from="1682074767262" duration="3454000" />
+      <workItem from="1682246743890" duration="1540000" />
+      <workItem from="1682248300278" duration="28000" />
+      <workItem from="1682248427078" duration="913000" />
+      <workItem from="1682249352403" duration="4000" />
+      <workItem from="1682424247434" duration="1423000" />
+      <workItem from="1683369661204" duration="17000" />
+      <workItem from="1683371425512" duration="65000" />
+      <workItem from="1683371574048" duration="18000" />
+      <workItem from="1683371614538" duration="523000" />
+      <workItem from="1683375944129" duration="8000" />
+      <workItem from="1683424494946" duration="1277000" />
+      <workItem from="1683802414043" duration="636000" />
+      <workItem from="1684067159114" duration="647000" />
+      <workItem from="1684233436508" duration="339000" />
+      <workItem from="1689143281934" duration="23000" />
+      <workItem from="1689594829489" duration="23000" />
+      <workItem from="1689601767853" duration="364000" />
+      <workItem from="1690608271547" duration="2854000" />
+      <workItem from="1690618562124" duration="13000" />
+      <workItem from="1691224945518" duration="21000" />
+      <workItem from="1697528252406" duration="168000" />
+      <workItem from="1700145782981" duration="141000" />
+      <workItem from="1700232353298" duration="2790000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-web/1.9.0/shiro-web-1.9.0.jar!/org/apache/shiro/web/filter/AccessControlFilter.class</url>
+          <line>41</line>
+          <properties class="org.apache.shiro.web.filter.AccessControlFilter" method="onAccessDenied">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/models/src/main/java/com/mrone/service/CommentService.java</url>
+          <line>17</line>
+          <properties class="com.mrone.service.CommentService" method="adminCommentDel">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.reflect.UndeclaredThrowableException" package="java.lang.reflect" />
+          <option name="timeStamp" value="5" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NoSuchMethodError" package="java.lang" />
+          <option name="timeStamp" value="7" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

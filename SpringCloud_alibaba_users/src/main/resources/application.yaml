@@ -1,0 +1,61 @@
+server:
+  port: 8889
+
+jwt:
+  #密钥
+  secret:
+  #有效期（秒）
+  expire: 86400
+spring:
+  datasource:
+    username: root
+    password: 123456
+    url: jdbc:mysql://localhost:3306/studyweb?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=UTC
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    database: mysql
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+
+  elasticsearch:
+    uris:
+    username:
+    password:
+
+  redis:
+    atabase: 0
+    port: 6379
+    password:
+    host:
+
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+
+  servlet:
+    multipart:
+      max-file-size: 2000MB
+      max-request-size: 2500MB
+
+  rabbitmq:
+    host:
+    port: 5672
+    username: admin
+    password: admin
+    publisher-confirms: true  # 开启confirm模式，确保消息成功发送到交换器
+    listener:
+      type: simple # 设置容器类型
+      simple:
+        default-requeue-rejected: false # basicReject或basicNack后不重新入队，使其进入死信队列
+        acknowledge-mode: manual # 选择使用手动ack，不使用自动ack
+        retry:
+          enabled: true # 开启消息消费失败重试
+          max-attempts: 5 # 重试次数
+          initial-interval: 3000 # 重试时间间隔
+logging:
+  level:
+    com:
+      mrone: debug
+
+#日志处理

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.mrone.mapper.ShortanswerMapper">
+
+    <resultMap id="BaseResultMap" type="com.mrone.entity.Shortanswer">
+            <id property="sid" column="sid" jdbcType="INTEGER"/>
+            <result property="answertitle" column="answertitle" jdbcType="VARCHAR"/>
+            <result property="answer" column="answer" jdbcType="VARCHAR"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        sid,answertitle,answer
+    </sql>
+
+    <select id="findShortBySid" resultType="com.mrone.dto.ShortDto">
+        select a.*,b.*,d.username,d.role,d.avatar
+        from subject a
+        join shortanswer b on a.id=b.sid
+        join usernum c on a.uid=c.id
+        join user d on c.openid = d.openid
+        where a.id=#{sid}
+    </select>
+</mapper>

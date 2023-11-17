@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/SpringCloud_alibaba_admin/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud_alibaba_admin/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud_alibaba_article/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud_alibaba_article/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud_alibaba_commons/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud_alibaba_commons/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud_alibaba_gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud_alibaba_gateway/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud_alibaba_rabbitmq/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud_alibaba_rabbitmq/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud_alibaba_users/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud_alibaba_users/src/main/java/com/mrone/controller/QiNiuTokenController.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud_alibaba_users/src/main/java/com/mrone/service/serviceimpl/WxMessageServiceImpl.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud_alibaba_users/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/models/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/models/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

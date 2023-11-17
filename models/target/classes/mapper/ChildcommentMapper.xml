@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.mrone.mapper.ChildcommentMapper">
+
+    <resultMap id="BaseResultMap" type="com.mrone.entity.Childcomment">
+            <id property="cid" column="cid" jdbcType="INTEGER"/>
+            <result property="fid" column="fid" jdbcType="INTEGER"/>
+            <result property="ccomment" column="ccomment" jdbcType="VARCHAR"/>
+            <result property="cimage" column="cimage" jdbcType="VARCHAR"/>
+            <result property="ctime" column="ctime" jdbcType="TIMESTAMP"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        cid,fid,ccomment,
+        cimage,ctime
+    </sql>
+</mapper>

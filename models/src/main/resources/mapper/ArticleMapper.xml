@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.mrone.mapper.ArticleMapper">
+
+    <resultMap id="BaseResultMap" type="com.mrone.entity.Article">
+            <id property="id" column="id" jdbcType="INTEGER"/>
+            <result property="uid" column="uid" jdbcType="INTEGER"/>
+            <result property="title" column="title" jdbcType="VARCHAR"/>
+            <result property="content" column="content" jdbcType="VARCHAR"/>
+            <result property="image" column="image" jdbcType="VARCHAR"/>
+            <result property="createtime" column="createtime" jdbcType="TIMESTAMP"/>
+            <result property="tag" column="tag" jdbcType="VARCHAR"/>
+            <result property="level" column="level" jdbcType="INTEGER"/>
+            <result property="updatetime" column="updatetime" jdbcType="TIMESTAMP"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        id,fid,title,
+        content,image,createtime,
+        tag,level,updatetim
+    </sql>
+
+    <select id="findByUid" resultType="com.mrone.dto.ArticleDto">
+       select a.*,count(*)`count` from article a join collect b on a.id=b.aid
+       where b.uid=#{uid} group by b.aid  ORDER BY count
+    </select>
+
+    <select id="findHotIndex" resultType="com.mrone.dto.ArticleDto">
+        SELECT a.* ,count(*)`count` from article a join collect b
+        on a.id=b.aid GROUP BY aid ORDER BY  count DESC LIMIT 10
+    </select>
+
+    <select id="findNewIndex" resultType="com.mrone.dto.ArticleDto">
+        select a.* from article a  order by createtime DESC LIMIT 10
+    </select>
+
+    <select id="findByTag" resultType="com.mrone.dto.ArticleDto">
+        select *, count(*) from article where tag like concat('%',#{tag},'%') group by id
+    </select>
+</mapper>

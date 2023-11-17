@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.mrone.mapper.UserMapper">
+
+    <resultMap id="BaseResultMap" type="com.mrone.entity.User">
+        <id property="openid" column="openid" jdbcType="VARCHAR"/>
+        <result property="username" column="username" jdbcType="VARCHAR"/>
+        <result property="role" column="role" jdbcType="VARCHAR"/>
+        <result property="permission" column="permission" jdbcType="VARCHAR"/>
+        <result property="createtime" column="createtime" jdbcType="TIMESTAMP"/>
+        <result property="avatar" column="avatar" jdbcType="VARCHAR"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        openid,username,role,
+        permission,createtime,avatar
+    </sql>
+
+    <!--    <select id="findOne" resultType="com.mrone.dto.UserDto">-->
+    <!--        select a.*,b.id from user a join usernum b-->
+    <!--        on a.openid = b.openid where openid=#{openid}-->
+    <!--    </select>-->
+
+    <update id="updateRoleAndPermission">
+        update user set role=#{role} , permission=#{permission} where openid=#{openid}
+    </update>
+
+    <select id="findAll" resultType="com.mrone.dto.UserDto">
+        select a.username,a.role,a.createtime,a.avatar,b.id
+        from user a join usernum b on a.openid=b.openid
+    </select>
+
+    <update id="updateUserInfo">
+	    UPDATE user  set username=#{username} where openid =
+	    (SELECT openid from usernum WHERE id=#{id})
+    </update>
+
+    <sql id="findById">
+        (SELECT openid from usernum WHERE id=#{id})
+    </sql>
+    <update id="updateAvatar">
+        UPDATE user a set avatar=#{avatar} where openid =
+      (SELECT openid from usernum WHERE id=#{id})
+    </update>
+
+    <select id="findById" resultType="com.mrone.dto.UserDto">
+        select a.* from user a join usernum b on a.openid = b.openid
+        where b.id=#{id}
+    </select>
+</mapper>

@@ -1,0 +1,32 @@
+server:
+  port: 7979
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: user_router #路由对象唯一标识
+          uri: lb://USER #用来类别服务地址  http://localhost:8787/user
+          predicates: #断言 用来配置路由规则
+            - Path=/user/** #指的是这个端口下的某个具体的接口地址
+
+        - id: admin_router #路由对象唯一标识
+          uri: lb://ADMIN #用来类别服务地址  http://localhost:8788/admin
+          predicates: #断言 用来配置路由规则
+            - Path=/admin/** #指的是这个端口下的某个具体的接口地址
+
+        - id: article_router #路由对象唯一标识
+          uri: lb://ARTICLE #用来类别服务地址  http://localhost:8789/article
+          predicates: #断言 用来配置路由规则
+            - Path=/article/** #指的是这个端口下的某个具体的接口地址
+
+        - id: common_router #路由对象唯一标识
+          uri: lb://COMMONS #用来类别服务地址  http://localhost:8800/common
+          predicates: #断言 用来配置路由规则
+            - Path=/** #指的是这个端口下的某个具体的接口地址
+
+
+
+
+
+
+
