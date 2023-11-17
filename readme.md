@@ -29,24 +29,24 @@
 + 软件名称：微服务学习网站系统
 + 软件作者：@一字先生
 + 软件出处：我的垃圾电脑
-+ 官网网址：[https://www.javaweb.vip](https://www.javaweb.vip)
++ 官网网址：[https://www.bilibili.com/video/BV1ku4y1L7VB/](https://www.bilibili.com/video/BV1ku4y1L7VB/)
 
 ## 🎨 系统演示
 
-演示地址：http://manage.layui.javaweb.vip
+演示地址：https://www.bilibili.com/video/BV1ku4y1L7VB/
 
 
 ## 📌 版本说明
 
 |   版本号   |   版本号   | 演示地址
 |:-------:|:-------:| :------:
-| 微服务学习网站 | 1.0-dev | https://gitee.com/javaweb520/JavaWeb_Layui
+| 微服务学习网站 | 1.0-dev | https://www.bilibili.com/video/BV1ku4y1L7VB/
 
 
 ## 🖐️ 接口相关
 详见接口.md
 
-## ✌️ 接口相关
+## ✌️ 数据库相关
 studyweb.sql
 
 ## 🔧 模块展示
